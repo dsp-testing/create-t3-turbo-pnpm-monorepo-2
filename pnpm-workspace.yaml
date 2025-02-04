@@ -15,7 +15,7 @@ catalog:
   zod: ^3.24.1
 
 catalogs:
-  react18:
+  react:
     react: 18.3.1
     react-dom: 18.3.1
     "@types/react": ^18.3.11
