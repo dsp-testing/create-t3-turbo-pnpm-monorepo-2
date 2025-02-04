@@ -53,7 +53,7 @@ importers:
         version: link:tooling/prettier
       '@turbo/gen':
         specifier: ^2.3.3
-        version: 2.3.3(@types/node@22.10.5)(typescript@5.6.3)
+        version: 2.3.3(@types/node@22.12.0)(typescript@5.6.3)
       prettier:
         specifier: 'catalog:'
         version: 3.3.3
@@ -67,8 +67,8 @@ importers:
   apps/auth-proxy:
     dependencies:
       '@auth/core':
-        specifier: 0.37.2
-        version: 0.37.2
+        specifier: 0.37.4
+        version: 0.37.4
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:*
@@ -362,8 +362,8 @@ importers:
         specifier: workspace:*
         version: link:../db
       '@auth/core':
-        specifier: 0.37.2
-        version: 0.37.2
+        specifier: 0.37.4
+        version: 0.37.4
       '@auth/drizzle-adapter':
         specifier: 1.7.4
         version: 1.7.4
@@ -3144,8 +3144,8 @@ packages:
   '@types/node@20.17.7':
     resolution: {integrity: sha512-sZXXnpBFMKbao30dUAvzKbdwA2JM1fwUtVEq/kxKuPI5mMwZiRElCpTXb0Biq/LMEVpXDZL5G5V0RPnxKeyaYg==}
 
-  '@types/node@22.10.5':
-    resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
+  '@types/node@22.12.0':
+    resolution: {integrity: sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==}
 
   '@types/node@22.12.0':
     resolution: {integrity: sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==}
@@ -6268,8 +6268,8 @@ packages:
     engines: {node: ^14.16.0 || >=16.10.0}
     hasBin: true
 
-  oauth4webapi@3.1.3:
-    resolution: {integrity: sha512-dik5wEMdFL5p3JlijYvM7wMNCgaPhblLIDCZtdXcaZp5wgu5Iwmsu7lMzgFhIDTi5d0BJo03LVoOoFQvXMeOeQ==}
+  oauth4webapi@3.1.4:
+    resolution: {integrity: sha512-eVfN3nZNbok2s/ROifO0UAc5G8nRoLSbrcKJ09OqmucgnhXEfdIQOR4gq1eJH1rN3gV7rNw62bDEgftsgFtBEg==}
 
   ob1@0.80.12:
     resolution: {integrity: sha512-VMArClVT6LkhUGpnuEoBuyjG9rzUyEzg4PDkav6wK1cLhOK02gPCYFxoiB4mqVnrMhDpIzJcrGNAMVi9P+hXrw==}
@@ -8317,7 +8317,7 @@ snapshots:
       '@types/cookie': 0.6.0
       cookie: 0.7.1
       jose: 5.9.6
-      oauth4webapi: 3.1.3
+      oauth4webapi: 3.1.4
       preact: 10.11.3
       preact-render-to-string: 5.2.3(preact@10.11.3)
 
@@ -8325,7 +8325,7 @@ snapshots:
     dependencies:
       '@panva/hkdf': 1.2.1
       jose: 5.9.6
-      oauth4webapi: 3.1.3
+      oauth4webapi: 3.1.4
       preact: 10.24.3
       preact-render-to-string: 6.5.11(preact@10.24.3)
 
@@ -11173,7 +11173,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@turbo/gen@2.3.3(@types/node@22.10.5)(typescript@5.6.3)':
+  '@turbo/gen@2.3.3(@types/node@22.12.0)(typescript@5.6.3)':
     dependencies:
       '@turbo/workspaces': 2.3.3
       commander: 10.0.1
@@ -11183,7 +11183,7 @@ snapshots:
       node-plop: 0.26.3
       picocolors: 1.0.1
       proxy-agent: 6.4.0
-      ts-node: 10.9.2(@types/node@22.10.5)(typescript@5.6.3)
+      ts-node: 10.9.2(@types/node@22.12.0)(typescript@5.6.3)
       update-check: 1.5.4
       validate-npm-package-name: 5.0.1
     transitivePeerDependencies:
@@ -11290,7 +11290,7 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
-  '@types/node@22.10.5':
+  '@types/node@22.12.0':
     dependencies:
       undici-types: 6.20.0
 
@@ -14963,7 +14963,7 @@ snapshots:
       pkg-types: 1.2.1
       ufo: 1.5.4
 
-  oauth4webapi@3.1.3: {}
+  oauth4webapi@3.1.4: {}
 
   ob1@0.80.12:
     dependencies:
@@ -16544,14 +16544,14 @@ snapshots:
       yn: 3.1.1
     optional: true
 
-  ts-node@10.9.2(@types/node@22.10.5)(typescript@5.6.3):
+  ts-node@10.9.2(@types/node@22.12.0)(typescript@5.6.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.10.5
+      '@types/node': 22.12.0
       acorn: 8.13.0
       acorn-walk: 8.3.4
       arg: 4.1.3
